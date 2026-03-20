@@ -2,7 +2,7 @@
 
 ## 1. What is RAG and why does it exist?
 
-In the most simple terms Retrieval Augmented Generation (RAG) provides small sections of relevant data to a Large Language Model (LLM) when interacting with it. The small sections of relevant data come from a totally separate tool than the LLM. The small sections of relevant data are located prior to making the LLM call. Below we will discuss why this is beneficial.
+In the most simple terms Retrieval Augmented Generation (RAG) provide small chunks of relevant data to a Large Language Model (LLM) so that the LLM can answer a user's question leveraging accurate data which the LLM might not have been trained on.
 
 What problems does RAG solve?
 

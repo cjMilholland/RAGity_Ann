@@ -6,21 +6,19 @@ In this series I will be exploring the world of RAG. Focusing on what are the re
 
 The goal is to understand what each piece of the puzzle is, what options exist for the different pieces, and how far you can push the technology.
 
-To start I am looking to build multiple versions of a system that allows for the intelligent searching of Employee Handbooks. At this time I am planning to focus on a smaller Employee Handbook and also a much larger employee handbook that spans multiple PDF files. Both of these Employee Handbooks are publicly available.
-
 This project will be broken into multiple phases.
 
-**Phase 0 \- What is RAG and how does it work?**
+[**Phase 0 \- What is RAG and how does it work?**](phase_0.md)
 
 Here we will focus on understanding what are the components of a RAG system. What our general options are, and what the trade offs are for the different options.
 
-**Phase 1 \- Local Only**
+[**Phase 1 \- Local Only**](phase_1.md)
 
-We will focus on running a system locally on our laptop without using a proper Vector Database and hosting small LLMs. I am working on this from a Macbook Air M3 with 16GB of Unified Memory.
+We will focus on running a system locally on our laptop using NumPy as our Vector Store while also hosting small LLM locally.
 
 **Phase 2 \- Self Hosted**
 
-This phase will focus on moving things into the cloud to allow access to higher performance platforms. We will also introduce a proper Vector Database(s) into this system. We will also move into larger LLMs that require higher amounts of memory than the 16GB that are available on my Macbook Air.
+This phase will focus on moving things into the cloud to allow access to higher performance platforms. We will also start to leverage more purpose built tools.
 
 **Phase 3 \- Fully Managed**
 
